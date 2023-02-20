@@ -1,0 +1,118 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F6F6F6;
+}
+
+.first-wrapper {
+    position: relative;
+    width: 70%;
+    top: 10vh;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 8%;
+}
+
+.title h1 {
+    padding-right: 3%;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.color-popup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    border-radius: 5px;
+    color: white;
+    background: red;
+    font-size: 0.8rem;
+    margin-left: 2%;
+    padding-inline: 1%;
+}
+
+#title-popup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.1rem;
+    padding-inline: 2%;
+}
+
+.new {
+    background: #000;
+}
+
+.resolved {
+    background:#21774f; 
+}
+
+.monitoring {
+    background: #cf4300;
+}
+
+.investigating {
+    background: #df184a;
+}
+
+.card-box {
+    border-radius: 5px;
+    background: white;
+    padding: 6%;
+    box-shadow: 10px 5px 15px #DDDFE2;
+}
+
+.card-box h3 {
+    font-size: 0.9rem;
+    margin-bottom: 2%;
+}
+
+.title-card-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-card {
+    display: flex;
+    align-items: center;
+    margin-right: 2%;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.card-box p {
+    font-size: 0.9rem;
+    margin: 3% 0 4%;
+}
+
+.btn-report {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 2vh;
+    width: 25%;
+    font-size: 0.8rem;
+    border: 1px solid #e2e7f7;
+    background: #f7f7fc;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #6f7382;
+}
+
+.line-between {
+    position: relative;
+    height: 1vh;
+    width: 0.5%;
+    left: 10%;
+    background: #6784A1;
+    opacity: 60%;
+}

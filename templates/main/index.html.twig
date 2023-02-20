@@ -3,5 +3,52 @@
 {% block title %}Hello MainController!{% endblock %}
 
 {% block body %}
+<!-- improvement idea :
+    - Make the vertical line between the cards be automaticly add when
+        a new card is posted.
+    - Sass make color variable for each popup-color and add
+     the correspondant name in each via variable too.
+    -->
 
+<wrapper class="first-wrapper">
+    <section class="title">
+        <h1>Incident History</h1>
+        <div id="title-popup" class="color-popup-title new">New</div>
+    </section>
+    <div class="card-box">
+        <h3>Mar 8, 2020</h3>
+        <div class="title-card-box">
+            <h2 class="title-card">Users are unable to rearrange screens <div class="color-popup resolved">Resolved</div>
+            </h2>
+        </div>
+        <p>Our engineers have resolved the issue where users were
+         unable to rearrange screens in V6 prototypes.
+         Please reach out to our support</p>
+        <a class="btn-report" href="#">Full Report <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+    <div class="line-between"></div>
+    <div class="card-box">
+        <h3>Mar 8, 2020</h3>
+        <div class="title-card-box">
+            <h2 class="title-card">Cloud V7 users may be experiencing some slowness or issues loading projects <div class="color-popup monitoring">Monitoring</div>
+            </h2>
+        </div>
+        <p>Our engineers have resolved the issue where users were
+         unable to rearrange screens in V6 prototypes.
+         Please reach out to our support</p>
+        <a class="btn-report" href="#">Full Report <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+    <div class="line-between"></div>
+    <div class="card-box">
+        <h3>Mar 8, 2020</h3>
+        <div class="title-card-box">
+            <h2 class="title-card">Some screens are not loading or loading intermittently for v7 users <div class="color-popup investigating">Investigating</div>
+            </h2>
+        </div>
+        <p>Our engineers have resolved the issue where users were
+         unable to rearrange screens in V6 prototypes.
+         Please reach out to our support</p>
+        <a class="btn-report" href="#">Full Report <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+</wrapper>
 {% endblock %}
